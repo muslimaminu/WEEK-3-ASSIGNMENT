@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+  background-color:grey;
+  
+  }
+  .register,
+  .login,
+  .success{
+    background-color:#067a53;
+    color:white;
+    margin: 20px;
+    width:80%;
+    padding: 15px;
+    border-radius:10px;
+  }
+  h2{
+    color:#6cda9c;
+    padding-left: 90px;
+  }
+  input{
+    height:25px;
+    width:100vh;
+    border: 2px solid #6cda9c;
+    border-radius: 5px;
+    margin:0px;
+  }
+  button {
+    height:40px;
+    width:150px;
+    border-radius: 20px;
+    cursor:pointer;
+    font-size: 22px;
+    border: 2px solid #6cda9c;
+  }
+
+  a{
+    font-size: 17px;
+    margin-left: 20px;
+  
+  }
+
+  a:hover{
+    color:black;
+    
+  }

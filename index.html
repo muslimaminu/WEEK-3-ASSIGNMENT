@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <nav>
+    <a href="login.html">Login page</a>
+      <a href="success.html">Success register page</a> 
+  </nav>
+
+
+  <div class="register">
+    <form action="login.html">
+      <table>
+      <h2>Registration Page</h2>
+          <tr>    
+      <td><label for="fname">First Name:</label></td>
+      <td><input type="text" id="fname" maxlength="12" minlength="4"  required></td>
+            </tr>
+
+         <tr>    
+      <td><label for="lname">Last Name:</label></td>
+      <td><input type="text" id="lname"  maxlength="12" minlength="4"  required ></td>
+            </tr>
+
+         <tr>    
+      <td><label for="pnumber">Phone number:</label></td>
+      <td><input type="number" id="pnumber" required ></td>
+         </tr>  
+        
+         <tr>    
+      <td><label for="email">Email:</label></td>
+      <td><input type="email" id="email" required ></td>
+            </tr>
+
+            <tr>    
+      <td><label for="gender">Gender:</label></td>
+      <td><select>
+        <option >Male</option>
+        <option>Female</option>
+      </select></td>
+            </tr>
+
+         <tr>    
+      <td><label for="dob">Date of Birth:</label></td>
+      <td><input type="date" id="dob" required ></td>
+            </tr>
+
+         <tr>    
+      <td><label for="color">Favourite color:</label></td>
+      <td><input type="color" id="color" required ></td>
+            </tr>
+
+        <tr>
+          <td><button type="submit" value="Register" class="index">Register</button></td>
+        </tr>
+
+        </table>
+    </form>
+  </div>
+
+  
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
